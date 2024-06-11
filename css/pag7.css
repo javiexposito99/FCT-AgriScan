@@ -1,0 +1,542 @@
+body{
+    
+}
+
+.container{
+    width: 140em;
+    height: 75em;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: black;
+    position: relative;
+}
+
+.container h5{
+    text-align: center;
+    background-color: #424242;
+    margin-top: 0;
+    padding-top: 0.7em;
+    height: 1.8em;
+    color: white;
+}
+
+/*Barra superior.*/
+.barra-superior{
+    margin-top: 10px;
+     width: 100%;
+     height: 120px;
+     
+     display: flex;
+ }
+ 
+ .barra-superior img{
+     width: auto;
+     height: auto;
+     margin-left: 2%;
+     margin-top: 5px;
+     
+ }
+ 
+ .datos-usuario{
+     display: grid;
+     margin-left: 1em;
+     color: #3d8c36;
+     font-size: 25px;
+ 
+     margin-top: 25px;
+     
+ }
+ 
+ /*Barra de cuaderno agricola*/
+ .cuadernoAgricola{
+     height: 30px;
+     background-color: #8a8a8a;
+     color: white;
+ 
+     text-align: center;
+     margin: auto;
+     padding-top: 10px;
+     font-size: 20px;
+ }
+ 
+ /*Linea superior de separación*/
+ /*
+ .linea-superior{
+     height: 10px;
+     width: 100%;
+     background-color: #8a8a8a;
+     margin-top: 10px;
+ }
+ */
+ 
+ /*Linea lateral de separación del menu
+ .linea-lateral{
+     height: 1000px;
+     width: 10px;
+     background-color: #8a8a8a;
+     margin-top: 0px;
+ 
+ }
+ */
+ 
+ /*Boton lateral del panel superior.*/
+.barra-superior button{
+     
+     height: 50%;
+     width: 8%;
+     margin: auto ;
+     margin-left: 80%;
+ 
+ 
+     background-color: #3d8c36;
+     border: none;
+     border-radius: 20px;
+     color: white;
+     
+}
+
+
+/*Barra lateral*/
+/*Tamaño de la barra lateral*/
+.barra-lateral{
+    margin-top: 20px;
+    width: 12%;
+    height: 30%; 
+}
+
+
+.elige-año{
+    
+    display: flex;
+    margin-left: 0;
+
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.años{
+    margin-top: 1em;
+    width: 5em;
+    height: 2.5em;
+    
+    font-weight: bold;
+    border: solid 1px;
+    border-color: black;
+    text-align: center;
+    padding-top: 1.1em;
+
+}
+
+.años:hover{
+    background-color: #E0E0E0;
+}
+
+#uno{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+#tres{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.informacion-general{
+    display: flex;
+    margin-left: auto;
+
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#opciones{
+    width: 18em;
+    height: 3.5em;
+    margin-top: 1.5em;
+    background-color: white;
+    border-radius: 5px; 
+    border: 1px solid;
+    text-align: start;
+  
+}
+
+
+/*Boton exportar*/
+.exportar{
+    display: flex;
+    margin-left: auto;
+    margin-top: 20%;
+     
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.exportar button{
+    margin-top: 26em;
+    height: 4em;
+    font-size: 1em;
+    width: 12em;
+
+    background-color: white;
+
+}
+
+
+/*Panel principal*/
+
+.panel-principal{
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 1%;
+    position: absolute;
+    top: 41.75em; 
+    left: 79em; 
+    transform: translate(-50%, -50%);
+    
+}
+
+.panel-principal img{
+    width: 95em;
+    margin-left: 26.7em;
+    margin-top: 1em;
+    
+}
+
+/*Tabla de datos*/
+.header{
+    display: flex;
+    margin-top: 1.5em;
+}
+
+.header h5{
+    background-color: white;
+    color: #000;
+    margin-top: 1em;
+    margin-left: 1.1em;
+    font-size: 20px;
+}
+
+.header #primer-input{
+    margin-left: 1em;
+    height: 2.5em;
+    margin-top: 1.5em;
+    width: 95em;
+}
+
+.header #segundo-input{
+    margin-left: 1em;
+    height: 2.5em;
+    margin-top: 1.5em;
+    width: 15em;
+}
+
+
+
+.panel-principal h2{
+    width: 40em;
+    height: 1.7em;
+    margin: auto;
+    margin-top: 1.5em;
+    padding-top: 0.4em;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 6px;
+}
+
+.fecha-apertura{
+    margin-top: 1.8em;
+    margin-left: 2.4em;
+    display: flex;
+}
+
+.fecha-apertura span{
+    font-size: 1.5em;
+    margin-top: 0.6em;
+    margin-left: 0.5em;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 96%; 
+    
+    margin: auto;
+    margin-top: 3em;
+    height: 10em;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px; 
+    
+}
+
+table th{
+    background-color: #ccc8c8;
+}
+
+table tr{
+    height: 3em;
+}
+
+.footer{
+    margin-top: 2em;
+}
+
+#primer-input{
+    margin-left: 1em;
+    height: 2em;
+    width: 90em;
+    margin-top: 0.3em;
+}
+
+#segundo-input{
+    margin-left: 1em;
+    height: 2em;
+    width: 16em;
+    margin-top: 0.3em;
+}
+
+.footer h5{
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin-left: 1.9em;
+    font-size: 20px;
+    height: 1.2em;
+}
+
+.footer-1{
+    display: flex; 
+    margin-left: 0.1em;   
+    height: 2.5em;
+}
+
+.texto-footer{
+   font-weight: bold;
+   margin-left: -8em;
+   margin-top: 2em;
+}
+
+.footer-2{
+    display: flex;
+}
+
+.izquierda{
+    margin-top: 1em;
+    margin-left: -10em;
+}
+
+.derecha{
+    margin-top: 4em;
+    margin-left: 28em;
+}
+
+#input-nhoja{
+    height: 2em;
+}
+
+#input-nseccion{
+    height: 2em;
+}
+
+#hoja{
+    margin-top: 1.5em;
+}
+
+#seccion{
+    margin-top: 1.5em;
+}
+
+.firma{
+    display: flex;
+}
+
+.cuadro-firma {
+    width: 400px; 
+    height: 150px; 
+    border: 1px solid #000;
+    margin-top: 2em; 
+    margin-left: 6.5em; 
+    position: relative; 
+    
+    
+}
+  
+.cuadro-firma::before {
+    content: "VALIDACIÓN INTERMEDIA";
+    
+    position: absolute;
+    margin-top: 1em; 
+    left: 8em; 
+    /*transform: translateX(-50%);*/ 
+    text-align: center;
+    font-size: 14px; 
+    color: #888; 
+}
+
+.cuadro2-firma {
+    width: 400px; 
+    height: 150px; 
+    border: 1px solid #000;
+    margin-top: 2em; 
+    margin-left: 60em; 
+    position: relative; 
+    
+    
+}
+  
+.cuadro2-firma::before {
+    content: "VALIDACIÓN FINAL";
+    
+    position: absolute;
+    margin-top: 1em; 
+    left: 9.5em; 
+    /*transform: translateX(-50%);*/ 
+    text-align: center;
+    font-size: 14px; 
+    color: #888; 
+}
+
+.footer{
+    
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+
+.footer h5{
+    background-color: white;
+    color: #000;
+    margin-top: 1em;
+    margin-left: 1.1em;
+    font-size: 20px;
+}
+
+.texto-footer{
+   font-weight: bold;
+   margin-left: -8em;
+   margin-top: 2em;
+}
+
+.texto-footer pre{
+    margin-top: 3em;
+}
+
+.footer-1 #primer-input{
+    width: 65%;
+    height: 2em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+
+.footer-1 #segundo-input{
+    width: 11%;
+    height: 2em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+#parrafo-footer3{
+    margin-left: 2.8em;
+    margin-top: -1.5em;
+}
+
+/*ULTIMO APARTADO*/
+.derecha{
+    margin-left: 35%;
+
+}
+
+#input-nhoja{
+    width: 20%;
+    height: 2em;
+    
+}
+
+#input-nseccion{
+    width: 20%;
+    height: 2em;
+}
+
+
+
+
+
+
+
+/*Input tabla 1*/
+#input_fecha_siembra{
+    width: 90%;
+    height: 80%;
+}
+#input_id_parcelas{
+    width: 90%;
+    height: 80%;
+}
+#input_especie{
+    width: 90%;
+    height: 80%;
+}
+#input_variedad{
+    width: 90%;
+    height: 80%;
+}
+#input_superficie_sembrada{
+    width: 90%;
+    height: 80%;
+}
+#input_cantidad_semilla{
+    width: 90%;
+    height: 80%;
+}
+#input_materia_activa{
+    width: 90%;
+    height: 80%;
+}
+#input_n_registro{
+    width: 90%;
+    height: 80%;
+}
+
+/*Tabla 2 input*/
+
+#input_fecha{
+    width: 90%;
+    height: 80%;
+}
+#input_producto_vegetal{
+    width: 90%;
+    height: 80%;
+}
+#input_problema_fitosanitario{
+    width: 90%;
+    height: 80%;
+}
+#input_cantidad{
+    width: 90%;
+    height: 80%;
+}
+#input_nombre_comercial{
+    width: 90%;
+    height: 80%;
+}
+#input_n_registro{
+    width: 90%;
+    height: 80%;
+}
+#input_cantidad_utilizada{
+    width: 90%;
+    height: 80%;
+}
+

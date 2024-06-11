@@ -1,0 +1,409 @@
+body{
+    
+}
+
+.container{
+    width: 140em;
+    height: 75em;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: black;
+    position: relative;
+}
+
+.container h5{
+    text-align: center;
+    background-color: #424242;
+    margin-top: 0;
+    padding-top: 0.7em;
+    height: 1.8em;
+    color: white;
+}
+
+
+/*Barra superior.*/
+.barra-superior{
+    margin-top: 10px;
+     width: 100%;
+     height: 120px;
+     
+     display: flex;
+ }
+ 
+ .barra-superior img{
+     width: auto;
+     height: auto;
+     margin-left: 2%;
+     margin-top: 5px;
+     
+ }
+ 
+ .datos-usuario{
+     display: grid;
+     margin-left: 1em;
+     color: #3d8c36;
+     font-size: 25px;
+ 
+     margin-top: 25px;
+     
+ }
+ 
+ /*Barra de cuaderno agricola*/
+ .cuadernoAgricola{
+     height: 30px;
+     background-color: #8a8a8a;
+     color: white;
+ 
+     text-align: center;
+     margin: auto;
+     padding-top: 10px;
+     font-size: 20px;
+ }
+ 
+ /*Linea superior de separación*/
+ /*
+ .linea-superior{
+     height: 10px;
+     width: 100%;
+     background-color: #8a8a8a;
+     margin-top: 10px;
+ }
+ */
+ 
+ /*Linea lateral de separación del menu
+ .linea-lateral{
+     height: 1000px;
+     width: 10px;
+     background-color: #8a8a8a;
+     margin-top: 0px;
+ 
+ }
+ */
+ 
+ /*Boton lateral del panel superior.*/
+.barra-superior button{
+     
+     height: 50%;
+     width: 8%;
+     margin: auto ;
+     margin-left: 80%;
+ 
+ 
+     background-color: #3d8c36;
+     border: none;
+     border-radius: 20px;
+     color: white;
+     
+}
+
+
+/*Barra lateral*/
+/*Tamaño de la barra lateral*/
+.barra-lateral{
+    margin-top: 20px;
+    width: 12%;
+    height: 30%; 
+}
+
+
+.elige-año{
+    
+    display: flex;
+    margin-left: 0;
+
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.años{
+    margin-top: 1em;
+    width: 5em;
+    height: 2.5em;
+    
+    font-weight: bold;
+    border: solid 1px;
+    border-color: black;
+    text-align: center;
+    padding-top: 1.1em;
+
+}
+
+.años:hover{
+    background-color: #E0E0E0;
+}
+
+#uno{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+#tres{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.informacion-general{
+    display: flex;
+    margin-left: auto;
+
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#opciones{
+    width: 18em;
+    height: 3.5em;
+    margin-top: 1.5em;
+    background-color: white;
+    border-radius: 5px; 
+    border: 1px solid;
+    text-align: start;
+  
+}
+
+
+/*Boton exportar*/
+.exportar{
+    display: flex;
+    margin-left: auto;
+    margin-top: 20%;
+     
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.exportar button{
+    margin-top: 26em;
+    height: 4em;
+    font-size: 1em;
+    width: 12em;
+
+    background-color: white;
+
+}
+
+
+/*Panel principal*/
+
+.panel-principal{
+    width: 86%;
+    margin-left: 7%;
+
+    position: absolute;
+    top: 41.75em; 
+    left: 79em; 
+    transform: translate(-50%, -50%);
+    
+}
+
+.panel-principal img{
+    width: 95em;
+    margin-left: 26.7em;
+    margin-top: 1em;
+    
+}
+
+/*Tabla de datos*/
+.header{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.header h5{
+    background-color: white;
+    color: #000;
+    margin-top: 1em;
+    margin-left: 1.1em;
+    font-size: 20px;
+}
+
+.header #primer-input{
+    width: 65%;
+    height: 2em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+.header #segundo-input{
+    width: 11%;
+    height: 2em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+
+}
+
+
+
+
+.panel-principal h2{
+    width: 40em;
+    height: 1.7em;
+    margin: auto;
+    margin-top: 2%;
+    padding-top: 0.4em;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 6px;
+}
+
+.fecha-apertura{
+    margin-top: 1.8em;
+    margin-left: 2.4em;
+    display: flex;
+}
+
+.fecha-apertura span{
+    font-size: 1.5em;
+    margin-top: 0.6em;
+    margin-left: 0.5em;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 96%; 
+    
+    margin: auto;
+    margin-top: 3%;
+    height: 10em;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px; 
+    
+}
+
+table th{
+    background-color: #ccc8c8;
+}
+
+table tr{
+    height: 3em;
+}
+
+.footer{
+    margin-top: 12em;
+}
+
+.footer hr{
+    width: 40em;
+
+}
+
+.footer h5{
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin-left: 1.8em;
+    font-size: 20px;
+    height: 1.2em;
+}
+
+.footer-1{
+    display: flex; 
+    
+    height: 2.5em;
+}
+
+.texto-footer{
+   font-weight: bold;
+   margin-left: -8em;
+   margin-top: 2em;
+}
+
+.texto-footer pre{
+    margin-top: 3em;
+}
+
+
+
+/*FOOTER 2 ULTIMO APARTADO*/
+.footer-2{
+    
+    margin-left: 80%;
+}
+
+#input-nhoja{
+    width: 20%;
+    height: 2em;
+    
+}
+
+#input-nseccion{
+    width: 20%;
+    height: 2em;
+}
+
+/*Linea del footer*/
+.linea-footer{
+    width: 30%;
+    height: 5px;
+    background-color: #c4c0c0;
+    margin-left: 2%;
+}
+
+/*Tabla */
+
+#input_id_parcelas{
+    width: 90%;
+    height: 80%;
+}
+#input_especie_tabla{
+    width: 90%;
+    height: 80%;
+}
+#input_variedad_tabla{
+    width: 90%;
+    height: 80%;
+}
+#input_int_fecha{
+    width: 90%;
+    height: 80%;
+}
+#input_super_tratada{
+    width: 90%;
+    height: 80%;
+}
+#input_problema_fitosanitario{
+    width: 90%;
+    height: 80%;
+}
+#input_aplicador{
+    width: 90%;
+    height: 80%;
+}
+#input_equipo{
+    width: 90%;
+    height: 80%;
+}
+#input_nombre_comercial{
+    width: 90%;
+    height: 80%;
+}
+#input_n_registro{
+    width: 90%;
+    height: 80%;
+}
+#input_dosis{
+    width: 90%;
+    height: 80%;
+}
+#input_eficacia_tabla{
+    width: 90%;
+    height: 80%;
+}
+#input_observaciones_tabla{
+    width: 90%;
+    height: 80%;
+}

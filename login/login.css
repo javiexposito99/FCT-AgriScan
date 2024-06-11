@@ -1,0 +1,94 @@
+body{
+    
+}
+
+.container{
+    width: 30em;
+    height: 36em;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+.container h5{
+    text-align: center;
+    background-color: #424242;
+    margin-top: 0;
+    padding-top: 0.7em;
+    height: 2.2em;
+    color: white;
+}
+
+.container img{
+    width: 8em;
+    height: auto;
+
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.container h1{
+    text-align: center;
+    font-size: 3em;
+    color: #3d8c36;
+
+}
+
+
+.datos-form{
+    display: grid;
+    
+    margin: auto;
+    width: 80%;    
+    height: 16em;
+    
+}
+
+#nif{
+    margin-bottom: 1em;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#contraseña{
+    margin-bottom: 1em;
+    border-radius: 10px;
+    font-size: 1em;
+
+}
+
+.checkbox{
+    font-size: 1.2em;
+}
+
+.checkbox input{
+    
+}
+
+.checkbox label{
+    margin-left: 8em;
+    text-decoration: underline;
+}
+
+#enviar_login{
+    width: 100%;
+    margin: auto;
+    height: 2.4em;
+    margin: 0;
+
+    font-size: 1.4em;
+    font-weight: ; /*Quito la letra en negrita, lo dejo por si en un futuro decido cambiarlo.*/
+}
+
+.error-login{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
